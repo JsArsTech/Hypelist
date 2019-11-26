@@ -1,0 +1,20 @@
+{
+  "name": "hyperlist",
+  "version": "1.0.0",
+  "description": "A to-do list with Hyperapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --out-dir dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+  },
+  "author": "JS",
+  "license": "MIT",
+  "dependencies": {
+    "hyperapp": "^1.2.10",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.23.7"
+  }
+}
